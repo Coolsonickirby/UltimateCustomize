@@ -37,10 +37,10 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   of a homebrew executable (.nro). This is intended to be used for sysmodules.
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
-APP_TITLE	:=	Tesla Overlay Template
+APP_TITLE	:=	Ultimate Customizer (P.O.C.)
 APP_VERSION :=	1.0.0
 
-TARGET		:=	$(notdir $(CURDIR))
+TARGET		:=	ovlUltimateCustomizer
 BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
